@@ -744,15 +744,18 @@ html, body {
 }
 
 .progress-group p {
+  text-align: center;
   margin: 0;
   text-transform: uppercase;
 }
 
 .progress-group + .progress-group {
   margin-top: 20px;
+  text-align: center;
 }
 
 .progress {
+  text-align: center;
   position: relative;
   margin: 10px 0 0;
   background-color: #666;
@@ -760,15 +763,18 @@ html, body {
   height: 10px;
   box-shadow: none;
   overflow: visible;
+  width: 1000px;
 }
 
 .progress-bar {
   position: relative;
   background-color: #50D890;
   height: 10px;
+  text-align: center;
 }
 
 .progress-bar:before {
+  text-align: center;
   content: '';
   position: absolute;
   right: 0;
@@ -782,6 +788,7 @@ html, body {
 }
 
 .progress-bar:after {
+  text-align: center;
   content: '';
   position: absolute;
   right: -8px;
@@ -795,6 +802,7 @@ html, body {
 }
 
 .progress-bar span {
+  text-align: center;
   width: 40px !important;
   position: absolute;
   top: -30px;
@@ -804,6 +812,7 @@ html, body {
 }
 
 .progressbar-back-text {
+  text-align: center;
   display: none;
 }
 
@@ -811,6 +820,7 @@ html, body {
   /* Section: Skills */
   .section-skills .col-sm-6 + .col-sm-6 {
     margin-top: 40px;
+    text-align: center;
   }
   .section-skills h2 {
     margin-bottom: 20px;
